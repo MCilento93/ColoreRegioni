@@ -10,5 +10,5 @@ dict_only_colors=ColoreRegioni().colori
 nome_regioni=ColoreRegioni().denominazioni
 ```
 <p align="center">
-  <img src="https://github.com/MCilento93/ColoreRegioni/blob/master/images/full_dict.png" width="450px">
+  <img src="https://github.com/MCilento93/ColoreRegioni/blob/main/images/full_dict.png" width="450px">
 </p>
