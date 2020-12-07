@@ -12,3 +12,6 @@ nome_regioni=ColoreRegioni().denominazioni
 <p align="center">
   <img src="https://github.com/MCilento93/ColoreRegioni/blob/main/images/full_dict.png" width="450px">
 </p>
+
+# License
+This repository is licensed under [MIT](LICENSE) (c) 2019 GitHub, Inc.
