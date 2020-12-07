@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ColoreRegioni",
-    version="0.0.1",
+    version="0.0.2",
     author="Mario Cilento",
     author_email="mario.cilento.93@gmail.com",
     description="Web-scraping del sito del governo italiano per la classificazione delle misure restrittive regionali",
