@@ -6,8 +6,11 @@ pyupdate.txt
 **/__pycache__
 **/.spyproject
 **/graphics
-**/dist
-**ColoreRegioni.egg-info
 
 # tutti i file di log
 *.log
+
+# folder root
+ColoreRegioni.egg-info/
+build/
+dist/

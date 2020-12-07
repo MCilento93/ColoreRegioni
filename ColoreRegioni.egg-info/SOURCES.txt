@@ -1,6 +1,7 @@
 README.md
 setup.cfg
 setup.py
+ColoreRegioni/__init__.py
 ColoreRegioni.egg-info/PKG-INFO
 ColoreRegioni.egg-info/SOURCES.txt
 ColoreRegioni.egg-info/dependency_links.txt
