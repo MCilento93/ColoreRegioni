@@ -14,6 +14,7 @@ setuptools.setup(
     url="https://github.com/MCilento93/ColoreRegioni",
     packages=setuptools.find_packages(),
     install_requires=['beautifulsoup4','urllib'],
+    license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3.8.5",
         "License :: OSI Approved :: MIT License",

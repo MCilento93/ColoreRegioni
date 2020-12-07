@@ -1,0 +1,10 @@
+# file specifico
+
+# tutte cartelle con il nome
+**/.ipynb_checkpoints
+**/__pycache__
+**/.spyproject
+**/graphics
+
+# tutti i file di log
+*.log
