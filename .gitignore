@@ -1,10 +1,13 @@
 # file specifico
+pyupdate.txt
 
 # tutte cartelle con il nome
 **/.ipynb_checkpoints
 **/__pycache__
 **/.spyproject
 **/graphics
+**/dist
+**ColoreRegioni.egg-info
 
 # tutti i file di log
 *.log

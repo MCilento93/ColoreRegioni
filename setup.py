@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ColoreRegioni",
-    version="0.0.2",
+    version="0.0.3",
     author="Mario Cilento",
     author_email="mario.cilento.93@gmail.com",
     description="Web-scraping del sito del governo italiano per la classificazione delle misure restrittive regionali",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/MCilento93/ColoreRegioni",
     packages=setuptools.find_packages(),
-    install_requires=['beautifulsoup4','urllib'],
+    install_requires=['beautifulsoup4'],
     license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3.8",
