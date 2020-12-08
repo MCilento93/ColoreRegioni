@@ -11,7 +11,7 @@ import urllib.request
 class ColoreRegioni():
 
     url='http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638?gclid=CjwKCAiAwrf-BRA9EiwAUWwKXicC1bzopYynHP9pvRxHUza7Ar4dte9hWHi55Uj4xfuAHanOCf7a1BoCTggQAvD_BwE'
-    req = urllib.request.Request(url)#, headers=self.headers)
+    req = urllib.request.Request(url)
     response = urllib.request.urlopen(req)
     page = response.read()
     soup = Soup(page, "html.parser")

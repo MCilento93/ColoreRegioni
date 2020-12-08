@@ -1,16 +1,14 @@
 # file specifico
-pyupdate.txt
+pyupdate.md
 
 # tutte cartelle con il nome
 **/.ipynb_checkpoints
 **/__pycache__
 **/.spyproject
 **/graphics
+**/ColoreRegioni.egg-info
+**/build
+**/dist
 
 # tutti i file di log
 *.log
-
-# folder root
-ColoreRegioni.egg-info/
-build/
-dist/
