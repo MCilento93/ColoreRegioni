@@ -6,14 +6,13 @@ Created on Mon Dec  7 20:31:58 2020
 """
 
 from bs4 import BeautifulSoup as Soup
-import urllib.request
+import requests
 
 class ColoreRegioni():
 
     url='http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638?gclid=CjwKCAiAwrf-BRA9EiwAUWwKXicC1bzopYynHP9pvRxHUza7Ar4dte9hWHi55Uj4xfuAHanOCf7a1BoCTggQAvD_BwE'
-    req = urllib.request.Request(url)
-    response = urllib.request.urlopen(req)
-    page = response.read()
+    response = requests.request("GET", url)
+    page = response.text[1:-1]
     soup = Soup(page, "html.parser")
 
     def get_color(onclick):
