@@ -26,7 +26,7 @@ from ColoreRegioni import ColoreRegioni
 colore_regioni=ColoreRegioni()
 full_dict=colore_regioni.colori_emoji
 ```
-![full_dict](https://github.com/MCilento93/ColoreRegioni/blob/main/images/full_dict.png)
+![full_dict](https://github.com/MCilento93/ColoreRegioni/blob/main/images/full_dict.png?raw=true)</br>
 Disponibili anche i risultati parziali:
 ```
 denominazioni=colore_regioni.denominazioni
