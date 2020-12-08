@@ -21,9 +21,9 @@ pip install ColoreRegioni
 ## Usage
 La classe ColoreRegioni() restituisce il dizionario con il colore e la corrispondente emoji:
 ```
-from ColoreRegioni import ColoreRegioni as cr
+from ColoreRegioni import ColoreRegioni
 
-colore_regioni=cr.ColoreRegioni()
+colore_regioni=ColoreRegioni()
 full_dict=colore_regioni.colori_emoji
 ```
 ![full_dict](https://github.com/MCilento93/ColoreRegioni/blob/main/images/full_dict.png?raw=true)</br>
