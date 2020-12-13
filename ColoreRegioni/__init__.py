@@ -11,9 +11,6 @@ import requests
 class ColoreRegioni():
 
     url='http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638?gclid=CjwKCAiAwrf-BRA9EiwAUWwKXicC1bzopYynHP9pvRxHUza7Ar4dte9hWHi55Uj4xfuAHanOCf7a1BoCTggQAvD_BwE'
-    response = requests.request("GET", url)
-    page = response.text[1:-1]
-    soup = Soup(page, "html.parser")
 
     def get_color(onclick):
         if onclick != None:
@@ -29,8 +26,11 @@ class ColoreRegioni():
             return None,None
 
     def __init__(self):
+        response = requests.request("GET", ColoreRegioni.url)
+        page = response.text[1:-1]
+        soup = Soup(page, "html.parser")
         results={}
-        for elem in ColoreRegioni.soup.find_all("path"):
+        for elem in soup.find_all("path"):
             reg_name=elem.attrs.get('id')
             reg_color,reg_emoji=ColoreRegioni.get_color(elem.attrs.get('onclick'))
             if reg_name:
