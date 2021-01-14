@@ -13,12 +13,12 @@
 Web-scraping del [sito del governo italiano](http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638?gclid=CjwKCAiAwrf-BRA9EiwAUWwKXicC1bzopYynHP9pvRxHUza7Ar4dte9hWHi55Uj4xfuAHanOCf7a1BoCTggQAvD_BwE) per la classificazione delle misure restrittive regionali per COVID-19.
 Denominazione regione in accordo a [nomenclatura istat](https://www.istat.it/it/archivio/6789).
 
-## Install
+# Installazione
 ```
 pip install ColoreRegioni
 ```
 
-## Usage
+# Utilizzo
 La classe ColoreRegioni() restituisce il dizionario con il colore e la corrispondente emoji:
 ```
 from ColoreRegioni import ColoreRegioni
@@ -34,5 +34,5 @@ dict_only_colors=colore_regioni.colori
 dict_only_emoji=colore_regioni.emoji
 ```
 
-# License
-This repository is licensed under [MIT](LICENSE) (c) 2020 GitHub, Inc.
+# Licenza
+Il software è liceziato con licenza [MIT](LICENSE) (c) 2020 GitHub, Inc.
