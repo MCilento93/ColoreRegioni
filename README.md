@@ -10,15 +10,15 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/MCilento93/ColoreRegioni)
 ![GitHub](https://img.shields.io/github/license/MCilento93/ColoreRegioni)
 
-Web-scraping del [sito del governo italiano](http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638?gclid=CjwKCAiAwrf-BRA9EiwAUWwKXicC1bzopYynHP9pvRxHUza7Ar4dte9hWHi55Uj4xfuAHanOCf7a1BoCTggQAvD_BwE) per la classificazione delle misure restrittive regionali per COVID-19.
+Web-scraping del **[sito del governo italiano](http://www.governo.it/it/articolo/domande-frequenti-sulle-misure-adottate-dal-governo/15638?gclid=CjwKCAiAwrf-BRA9EiwAUWwKXicC1bzopYynHP9pvRxHUza7Ar4dte9hWHi55Uj4xfuAHanOCf7a1BoCTggQAvD_BwE)** per la classificazione delle misure restrittive regionali per COVID-19.
 Denominazione regione in accordo a [nomenclatura istat](https://www.istat.it/it/archivio/6789).
 
-# Installazione
+## Installazione
 ```
 pip install ColoreRegioni
 ```
 
-# Esempio di utilizzo
+## Esempio di utilizzo
 La classe ColoreRegioni() restituisce il dizionario con il colore e la corrispondente emoji:
 ```
 from ColoreRegioni import ColoreRegioni
@@ -34,9 +34,9 @@ dict_only_colors=colore_regioni.colori
 dict_only_emoji=colore_regioni.emoji
 ```
 
-# Licenza
-Il software è liceziato con licenza [MIT](LICENSE) (c) 2020 GitHub, Inc.
+## Licenza
+Il software è liceziato con licenza **[MIT](LICENSE)** (c) 2020 GitHub, Inc.
 
-# Progetti che utilizzano ColoreRegioni
-• [checoloresono.info](https://checoloresono.info/#/) di [Azzeccagarbugli](https://github.com/Azzeccagarbugli/checoloresono)
-• [coronavirusitaliamap](https://coronavirusitaliamap.altervista.org/) di Stefano Quaggio
+## Progetti che utilizzano ColoreRegioni
+* [checoloresono.info](https://checoloresono.info/#/) di **[Azzeccagarbugli](https://github.com/Azzeccagarbugli/checoloresono)**
+* [coronavirusitaliamap](https://coronavirusitaliamap.altervista.org/) di **Stefano Quaggio**
