@@ -18,7 +18,7 @@ Denominazione regione in accordo a [nomenclatura istat](https://www.istat.it/it/
 pip install ColoreRegioni
 ```
 
-# Utilizzo
+# Esempio di utilizzo
 La classe ColoreRegioni() restituisce il dizionario con il colore e la corrispondente emoji:
 ```
 from ColoreRegioni import ColoreRegioni
@@ -36,3 +36,7 @@ dict_only_emoji=colore_regioni.emoji
 
 # Licenza
 Il software è liceziato con licenza [MIT](LICENSE) (c) 2020 GitHub, Inc.
+
+# Progetti che utilizzano ColoreRegioni
+• [checoloresono.info](https://checoloresono.info/#/) di [Azzeccagarbugli](https://github.com/Azzeccagarbugli/checoloresono)
+• [coronavirusitaliamap](https://coronavirusitaliamap.altervista.org/) di Stefano Quaggio
