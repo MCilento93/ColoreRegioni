@@ -22,7 +22,7 @@ class ColoreRegioni():
                 return 'giallo','🟡'
             elif 'verde' in onclick:
                 return 'verde','🟢'
-             '' in onclick:
+            elif '' in onclick:
                 return 'bianca','⚪️'
         else:
             return None,None
