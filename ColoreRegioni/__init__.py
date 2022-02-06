@@ -50,7 +50,7 @@ class ColoreRegioni():
                    'umbria':'Umbria',
                    'lazio':'Lazio',
                    'toscana':'Toscana',
-                   'abruzzo':'Abbruzzo',
+                   'abruzzo':'Abruzzo',
                    'molise':'Molise',
                    'basilicata':'Basilicata',
                    'puglia':'Puglia',
